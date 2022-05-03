@@ -9,8 +9,12 @@ public class Executora {
         GaiaRobo umaGaiarobo = new GaiaRobo(); // Criando uma variavel
 
 
-        umaGaiarobo.abrirChrome();
         umaGaiarobo.acessarSite();
+        umaGaiarobo.fazerLogin();
+        umaGaiarobo.lancarNota();
+
+        GaiaRobo umaOutraGaiaRobo = new GaiaRobo();
+        umaOutraGaiaRobo.acessarSite();
 
     }
 }

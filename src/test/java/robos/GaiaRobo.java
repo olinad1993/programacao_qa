@@ -6,10 +6,11 @@ import org.openqa.selenium.chrome.ChromeDriver;
 public class GaiaRobo { // Classe
 
     public ChromeDriver julioDriver; // Propriedade criada, possibilitando usar em todos os metodos
-
-    public void abrirChrome() {
+    public GaiaRobo(){ // Construtor
+        // o que estiver aqui será executado no new
         WebDriverManager.chromedriver().setup();
         julioDriver = new ChromeDriver();
+
 
     }
 
