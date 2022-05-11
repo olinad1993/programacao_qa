@@ -14,9 +14,8 @@ public class GaiaRobo { // Classe
 
     }
 
-    public void acessarSite(){
-
-        julioDriver.get("http://www.juliodelima.com.br/taskit");
+    public void acessarSiteChamado(String urlsite){ // Trabalhando com parametros
+        julioDriver.get(urlsite);
 
     }
 
